@@ -30,5 +30,5 @@
     return drivers.reduce(function(total, d) { 
       return total += d.revenue; 
     }, 0);
-  }
+  };
   
