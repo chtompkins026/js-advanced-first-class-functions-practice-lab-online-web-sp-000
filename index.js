@@ -32,5 +32,8 @@
     }, 0);
   };
     
-    const 
+    const averageRevenue = function(drivers){ 
+      return totalRevenue(drivers) / drivers.length; 
+      
+    }; 
   
