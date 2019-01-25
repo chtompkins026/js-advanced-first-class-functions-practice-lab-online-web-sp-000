@@ -26,4 +26,9 @@
     }); 
   };
   
+  const totalRevenue = function(drivers){ 
+    return drivers.reduce(function(total, d) { 
+      total += d.revenue; 
+    });
+  }
   
