@@ -13,3 +13,9 @@
      }
    });  
   }
+  
+  const driversByRevenue = function(drivers){ 
+    drivers.sort(function(a,b){ 
+      return a.revenue - b.revenue; 
+    }); 
+  }
