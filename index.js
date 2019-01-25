@@ -15,8 +15,8 @@
   };
   
   const driversByRevenue = function(drivers){ 
-    new_d = drivers
-    drivers.sort(function(a,b){ 
+    new_d = drivers; 
+    new_d.sort(function(a,b){ 
       return a.revenue - b.revenue; 
     }); 
   };
